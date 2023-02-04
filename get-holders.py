@@ -3,7 +3,7 @@ import argparse
 import csv
 import pandas as pd
 
-from lib.endpoints import *
+from helpers.endpoints import *
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-a", "--address", help="Collection contract address", required=True)
@@ -23,7 +23,7 @@ api_key = os.environ['APIKEY']
 
 try:
     contract_info = get_contract_info(api_key, args.address, chain)
-    print("Contract info: %s" % contract_info);
+    print("Contract info: %s" % contract_info)
 except:
     print("Contract not found")
     exit(1)
