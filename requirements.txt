@@ -1,0 +1,13 @@
+autopep8==2.0.1
+certifi==2022.12.7
+frozendict==2.3.4
+moralis==0.1.19
+numpy==1.24.1
+pandas==1.5.3
+pycodestyle==2.10.0
+python-dateutil==2.8.2
+pytz==2022.7.1
+six==1.16.0
+tomli==2.0.1
+typing_extensions==4.3.0
+urllib3==1.26.14
