@@ -48,6 +48,7 @@ fabric.properties
 # Virtualenv
 # http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
 .Python
+__pycache__
 [Bb]in
 [Ii]nclude
 [Ll]ib
@@ -236,7 +237,9 @@ Temporary Items
 
 # exclude everything
 data/*
+data/merged/*
 
 # exception to the rule
+!/data/merged
 !data/.gitkeep
 !data/merged/.gitkeep
